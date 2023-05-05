@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: "Roboto";
+    fron-size: 13px ;
+
+}
+a
+{
+    display: inline-block;
+}
+
+p
+{
+    color: black;
+}
+header
+{
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: white;    
+}
+header .container 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container .logo
+{
+    width: 100px;
+
+}
+header .container a
+{
+    color: red;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.boton
+{
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+.boton.boton-rojo
+{
+    color:white;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container
+{
+    width: 1140px;
+    margin: 0 auto ;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#inicio
+{
+    position: relative;
+
+}
+#inicio img
+{
+    width: 100%;
+    display: blok;
+    
+}
+#inicio .bloque-inicio
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 400px;
+    text-align: center;
+    margin-left: 0px;
+}
+#inicio .bloque-inicio h1
+{
+    color: white;
+    font-size: 35px
+}
+#inicio .bloque-inicio p
+{
+    color: white;
+    font-size: 16px;
+}
+
