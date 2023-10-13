@@ -47,6 +47,7 @@ header .container nav a
 header .container .hamb
 {
     display: none;
+    position: relative;
 }
 
 footer.seccion
@@ -391,7 +392,7 @@ footer ul li
     } 
     header .container nav.open    
     {   
-        transform: translate(0);
+        transform: translateX(0);
     }
     header .container nav a
     {   
